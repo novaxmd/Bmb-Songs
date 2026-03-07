@@ -1,0 +1,87 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  height: 100dvh;
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 2px;
+  background-color: transparent;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-slider-thumb {
+  height: 2px;
+  background-color: #3e3e3e
+}
+
+#wave::-webkit-scrollbar,
+#wave::-moz-range-track {
+  height: 0;
+}
+
+#menu::-webkit-scrollbar,
+#artist-songs-list::-webkit-scrollbar,
+#widget-container::-webkit-scrollbar {
+  width: 1px;
+}
+
+input[type="text"],
+input[type="range"] {
+  outline: none;
+  border: none;
+}
+
+@media screen and (min-width: 640px) {
+
+  ::-webkit-scrollbar {
+    width: 2px;
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    width: auto;
+    background-color: #323232;
+  }
+
+}
+
+#volumeSlider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 12px;
+  width: 100%;
+  background: #2c2c2c;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#volumeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-progress-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+  border-radius: 100%;
+  box-shadow: -163px 0 0 157px #00ffaa;
+  border: 2px solid #00ffaa;
+}
+
+#fallback-ui {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}

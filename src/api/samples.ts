@@ -1,6 +1,6 @@
 export const sampleTrack = {
   id: "X0zxHHfs",
-  name: "Pepeta",
+  name: "Track3",
   type: "song",
   year: "2023",
   releaseDate: "2023-12-01",
@@ -12,17 +12,17 @@ export const sampleTrack = {
   hasLyrics: false,
   lyricsId: null,
   url: "some url",
-  copyright: "Rayvanny",
+  copyright: "Artist name",
   album: {
     id: "50076157",
-    name: "Tanzania Hits",
+    name: "Husn",
     url: "sample album url",
   },
   artists: {
     primary: [
       {
         id: "1431",
-        name: "Rayvanny",
+        name: "Artist name",
         url: "artist url",
         type: "artist",
         role: "artist",
@@ -32,7 +32,7 @@ export const sampleTrack = {
     featured: [
       {
         id: "1431",
-        name: "Harmonize",
+        name: "Artist name",
         url: "artist url",
         type: "artist",
         role: "artist",
@@ -42,7 +42,7 @@ export const sampleTrack = {
     all: [
       {
         id: "1431",
-        name: "Rayvanny",
+        name: "Artist name",
         url: "artist url",
         type: "artist",
         role: "artist",
@@ -69,7 +69,7 @@ export const sampleSearchResults = {
     results: [
       {
         id: "568648",
-        title: "Rayvanny",
+        title: "Some query result",
         image: [
           {
             quality: "50x50",
@@ -92,20 +92,20 @@ export const sampleSearchResults = {
     results: [
       {
         id: "Ap1mYWUe",
-        title: "Pepeta",
+        title: "Track1",
         image: [
           {
             quality: "50x50",
             url: "song image url",
           },
         ],
-        album: "Tanzania Hits",
+        album: "album1",
         url: "some url",
         type: "song",
         description: "title from movie/artist",
         position: 1,
-        primaryArtists: "Rayvanny",
-        singers: "Rayvanny",
+        primaryArtists: "artist1",
+        singers: "singer1",
         language: "english",
       },
     ],
@@ -115,7 +115,7 @@ export const sampleSearchResults = {
     results: [
       {
         id: "252208",
-        title: "Tanzania Collection",
+        title: "Encore",
         image: [
           {
             quality: "50x50",
@@ -126,7 +126,7 @@ export const sampleSearchResults = {
             url: "some url",
           },
         ],
-        artist: "Harmonize",
+        artist: "artist",
         url: "some url",
         type: "album",
         description: "description of title/album",
@@ -134,10 +134,10 @@ export const sampleSearchResults = {
         songIds:
           "4Em6uaoL, i9ydMSJr, rTpH2eN4, vntXe_9X, j8hvJDPs, Z4rNko0k, y6UMHuY0",
         language: "english",
-        album: "Tanzania Album",
+        album: "some album",
         position: 2,
-        primaryArtists: "Harmonize",
-        singers: "Koffi Olomide",
+        primaryArtists: "Artist2 Artist3",
+        singers: "Singer 4",
       },
     ],
     position: 1,
@@ -146,7 +146,7 @@ export const sampleSearchResults = {
     results: [
       {
         id: "625094",
-        title: "Koffi Olomide",
+        title: "Encore",
         image: [
           {
             quality: "50x50",
@@ -169,7 +169,7 @@ export const sampleSearchResults = {
     results: [
       {
         id: "48667929",
-        title: "Tanzania Trending",
+        title: "Some title",
         image: [
           {
             quality: "50x50",
@@ -200,13 +200,13 @@ export const sampleSongQueue = {
 
 export const sampleAlbum = {
   id: "58397429",
-  name: "Tanzania Album",
+  name: "Album 42",
   year: "2024",
   releaseDate: "12-10-23",
   songCount: "34141",
   url: "some url",
   primaryArtistsId: "012xafSl qrqWQfx xlze1Q2",
-  primaryArtists: "Rayvanny Harmonize",
+  primaryArtists: "Artist 31 Artist 10",
   featuredArtists: [],
   artists: [],
   image: [
@@ -273,7 +273,7 @@ export const sampleUserPlaylist = {
 
 export const sampleArtist = {
   id: "1431",
-  name: "Rayvanny",
+  name: "Artist name",
   url: "artist url",
   type: "artist",
   followerCount: null,

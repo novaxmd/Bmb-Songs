@@ -1,28 +1,28 @@
 export const sampleTrack = {
   id: "X0zxHHfs",
-  name: "Track3",
+  name: "Wangu",
   type: "song",
-  year: "2023",
-  releaseDate: "2023-12-01",
+  year: "2024",
+  releaseDate: "2024-12-01",
   duration: 217,
-  label: "Music label",
+  label: "Tanzania Music Records",
   explicitContent: false,
   playCount: 401865,
-  language: "english",
+  language: "swahili",
   hasLyrics: false,
   lyricsId: null,
   url: "some url",
-  copyright: "Artist name",
+  copyright: "Rayvanny",
   album: {
     id: "50076157",
-    name: "Husn",
+    name: "Tanzania Album Collection",
     url: "sample album url",
   },
   artists: {
     primary: [
       {
         id: "1431",
-        name: "Artist name",
+        name: "Rayvanny",
         url: "artist url",
         type: "artist",
         role: "artist",
@@ -31,8 +31,8 @@ export const sampleTrack = {
     ],
     featured: [
       {
-        id: "1431",
-        name: "Artist name",
+        id: "1432",
+        name: "Harmonize",
         url: "artist url",
         type: "artist",
         role: "artist",
@@ -42,7 +42,7 @@ export const sampleTrack = {
     all: [
       {
         id: "1431",
-        name: "Artist name",
+        name: "Rayvanny",
         url: "artist url",
         type: "artist",
         role: "artist",
@@ -69,7 +69,7 @@ export const sampleSearchResults = {
     results: [
       {
         id: "568648",
-        title: "Some query result",
+        title: "Rayvanny - Tanzania Artist",
         image: [
           {
             quality: "50x50",
@@ -82,7 +82,7 @@ export const sampleSearchResults = {
         ],
         url: "some url",
         type: "artist",
-        description: "Artist",
+        description: "Tanzanian Musician",
         position: 2,
       },
     ],
@@ -92,21 +92,21 @@ export const sampleSearchResults = {
     results: [
       {
         id: "Ap1mYWUe",
-        title: "Track1",
+        title: "Pepeta",
         image: [
           {
             quality: "50x50",
             url: "song image url",
           },
         ],
-        album: "album1",
+        album: "Tanzanian Hits",
         url: "some url",
         type: "song",
-        description: "title from movie/artist",
+        description: "Tanzanian Music Hit",
         position: 1,
-        primaryArtists: "artist1",
-        singers: "singer1",
-        language: "english",
+        primaryArtists: "Rayvanny",
+        singers: "Rayvanny",
+        language: "swahili",
       },
     ],
     position: 2,
@@ -115,7 +115,7 @@ export const sampleSearchResults = {
     results: [
       {
         id: "252208",
-        title: "Encore",
+        title: "Tanzania Collection",
         image: [
           {
             quality: "50x50",
@@ -126,18 +126,18 @@ export const sampleSearchResults = {
             url: "some url",
           },
         ],
-        artist: "artist",
+        artist: "Harmonize",
         url: "some url",
         type: "album",
-        description: "description of title/album",
-        year: "2016",
+        description: "Tanzanian Album",
+        year: "2024",
         songIds:
           "4Em6uaoL, i9ydMSJr, rTpH2eN4, vntXe_9X, j8hvJDPs, Z4rNko0k, y6UMHuY0",
-        language: "english",
-        album: "some album",
+        language: "swahili",
+        album: "Tanzania Hits",
         position: 2,
-        primaryArtists: "Artist2 Artist3",
-        singers: "Singer 4",
+        primaryArtists: "Harmonize",
+        singers: "Harmonize",
       },
     ],
     position: 1,
@@ -146,7 +146,7 @@ export const sampleSearchResults = {
     results: [
       {
         id: "625094",
-        title: "Encore",
+        title: "Koffi Olomide",
         image: [
           {
             quality: "50x50",
@@ -159,7 +159,7 @@ export const sampleSearchResults = {
         ],
         url: "artist url",
         type: "artist",
-        description: "Singer",
+        description: "Tanzanian Music Legend",
         position: 1,
       },
     ],
@@ -169,7 +169,7 @@ export const sampleSearchResults = {
     results: [
       {
         id: "48667929",
-        title: "Some title",
+        title: "Muziki wa Tanzania",
         image: [
           {
             quality: "50x50",
@@ -182,8 +182,8 @@ export const sampleSearchResults = {
         ],
         url: "playlist url",
         type: "playlist",
-        language: "english",
-        description: "Some description",
+        language: "swahili",
+        description: "Best Tanzanian Music Collection",
         position: 2,
       },
     ],
@@ -193,20 +193,20 @@ export const sampleSearchResults = {
 
 export const sampleSongQueue = {
   id: "Rzdqqd31",
-  name: "playlist 3",
+  name: "Nyimbo za Kila Siku",
   image: false,
   songs: [sampleTrack],
 };
 
 export const sampleAlbum = {
   id: "58397429",
-  name: "Album 42",
+  name: "Tanzania Greatest Hits",
   year: "2024",
   releaseDate: "12-10-23",
   songCount: "34141",
   url: "some url",
   primaryArtistsId: "012xafSl qrqWQfx xlze1Q2",
-  primaryArtists: "Artist 31 Artist 10",
+  primaryArtists: "Rayvanny Harmonize",
   featuredArtists: [],
   artists: [],
   image: [
@@ -225,14 +225,14 @@ export const sampleAlbum = {
 export const samplePlaylist = {
   id: "ae5fa1Ax",
   userId: "some user id",
-  name: "Playlist 13",
+  name: "Hits za Tanzania",
   followerCount: "1221",
   songCount: "20",
   fanCount: "14210",
-  username: "artist 1",
-  firstname: "first",
-  lastname: "last",
-  language: "english",
+  username: "Tanzania Music Hub",
+  firstname: "Tanzania",
+  lastname: "Music",
+  language: "swahili",
   shares: "1331",
   quality: "",
   image: [
@@ -247,8 +247,8 @@ export const samplePlaylist = {
 
 export const sampleArtistInSong = {
   id: "zcA9adw1w",
-  name: "sample song",
-  role: "",
+  name: "Wangu",
+  role: "Lead Vocalist",
   image: [
     {
       quality: "50x50",
@@ -260,7 +260,7 @@ export const sampleArtistInSong = {
 };
 
 export const sampleUserPlaylist = {
-  name: "custom playlist",
+  name: "My Tanzania Music",
   id: 39,
   songs: [sampleTrack],
   image: [
@@ -273,22 +273,22 @@ export const sampleUserPlaylist = {
 
 export const sampleArtist = {
   id: "1431",
-  name: "Artist name",
+  name: "Rayvanny",
   url: "artist url",
   type: "artist",
-  followerCount: null,
-  fanCount: "0",
+  followerCount: 500000,
+  fanCount: "750000",
   role: "artist",
-  isVerified: null,
-  dominantLanguage: null,
-  dominantType: null,
-  bio: null,
+  isVerified: true,
+  dominantLanguage: "swahili",
+  dominantType: "tanzanian",
+  bio: "Tanzanian music artist and producer specializing in contemporary African music",
   dob: null,
   fb: null,
   twitter: null,
   wiki: null,
-  availableLanguages: [],
-  isRadioPresent: null,
+  availableLanguages: ["swahili", "english"],
+  isRadioPresent: true,
   image: [
     {
       quality: "50x50",
@@ -309,12 +309,12 @@ export const samplePlaylistOfList = {
   id: "2312321",
   i: 2,
   userId: "user_01",
-  name: "Playlist 21",
+  name: "Top 10 Tanzania",
   songCount: "12",
-  username: "some name",
-  firstname: "first",
-  lastname: "last",
-  language: "english",
+  username: "Tanzania Music Fan",
+  firstname: "Tanzania",
+  lastname: "Lover",
+  language: "swahili",
   image: [
     {
       quality: "50x50",
